@@ -22,4 +22,25 @@ Scanning the Qr reveal the pastebin website (https://pastebin.com/wphPq0Aa?zarsr
 
 ![pastebin](https://github.com/user-attachments/assets/d6c09204-b804-4d5d-bcdf-a6a09a9a732a)
 
-Turning to task 3 of the puzzle require me to decode the passphrase and key that we just found in pastebin
+Turning to task 3 of the puzzle require me to decode the passphrase and key that we just found in pastebin. Looking at both the passphrase and key, i suspect this can be classical cipher like ceaser cipher but the long string of text prove me otherwise. So i belive an online tool (https://www.dcode.fr/cipher-identifier) might help me in solving this.
+
+![encode_indentifying](https://github.com/user-attachments/assets/1dbedf43-8418-4fc6-b614-e8e8767d9328)
+
+Looking from the result of the indentifier, i doubt its be an youtube link because of it short length, rail fench becasue its key is needed in the form of numeber... which only left base64 or base62 as the remaining choice. I copy the key "Q2ljYWRh" (because it shorter and may prove to be provide a more precise result) into a base64 and base62 decoder and yield the following result
+
+
+![false_answer](https://github.com/user-attachments/assets/52a2489c-e167-49c9-b5d0-313563d0956f)
+
+Definitely not the base62 looking from the result which the base 64 is the only correct answer which can be observe below
+
+![true_answer](https://github.com/user-attachments/assets/d443c7a7-8a91-4093-a9a3-d942d0c6bccd)
+
+Result yielded from the passphrase look a bit weird but since there is no other way to go other than "base64" option so i have to go with this one and further decrypt it to see if it is true
+
+![passphrase](https://github.com/user-attachments/assets/80439a62-ca55-4240-a11a-4717540aaa64)
+
+
+
+
+
+
